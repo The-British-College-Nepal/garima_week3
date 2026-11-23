@@ -4,11 +4,20 @@ import java.util.Random;
 
 /**
  * Driver class to demonstrate the Stats class functionality.
+ *
+ * @author Your Name
  */
 public class Driver {
 
+    /**
+     * Main method to run the Stats demonstration.
+     *
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
+
         final int VALUES = 10;
+
         Stats stats = new Stats(VALUES);
         Random random = new Random();
 
